@@ -6,9 +6,11 @@ The user can navigate and view the forecast for 5 days and the hourly forecast f
 To start the app:
 
 1. Download or clone the project
-2. Run `npm install`
-3. In the root directory run `npm run dev`
-4. The project should be running on [localhost:5173](http://localhost:5173/)
+2. Create `.env` file in the root of the project
+3. In the `.env` add `VITE_APP_API_KEY=<your-api-key>` variable and replace the `<your-api-key>` with an api key from [openweather](https://openweathermap.org/api)
+4. Run `npm install`
+5. In the root directory run `npm run dev`
+6. The project should be running on [localhost:5173](http://localhost:5173/)
 
 Additionally:
 - Tests can be ran by opening terminal in the root directory and running the `npm run test` command.
